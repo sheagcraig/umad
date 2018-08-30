@@ -389,7 +389,7 @@ def has_dep_activation_record(plist_path):
 
 
 def restart_notification_center():
-    '''Restart NotificationCenter by killing, letting LaunchD respawn."""
+    '''Restart NotificationCenter by killing, letting LaunchD respawn.'''
     subprocess.call(['/usr/bin/killall', 'NotificationCenter'])
 
 def load_umad_globals():
